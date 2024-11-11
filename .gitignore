@@ -1,0 +1,38 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore VSCode workspace settings (if using VSCode)
+.vscode/
+
+# Ignore logs and cache
+*.log
+*.cache
+
+# Ignore virtual environment folders
+venv/
+env/
+.venv/
+.env/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files and swap files
+*.swp
+*.swo
+*~
+
+# Ignore Pytest cache
+.pytest_cache/
+
+# Ignore Jupyter Notebook checkpoints (if you use Jupyter notebooks for testing)
+.ipynb_checkpoints/
+
+# Ignore all hidden files (if needed, uncomment below)
+# .*/
+
+# Ignore environment variables or sensitive data files (if any)
+.env
